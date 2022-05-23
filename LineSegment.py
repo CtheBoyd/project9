@@ -1,8 +1,8 @@
 class Point():
 
     def __init__(self, x_coord, y_coord):
-        self._x_coord = point_1
-        self._y_coord = point_2
+        self._x_coord = x_coord
+        self._y_coord = y_coord
 
         def get_x_coord(self):
             return self.x_coord
@@ -12,16 +12,15 @@ class Point():
 
 
     def distance_to():
-            sum = 0
-            for i in list():
-                sum += i.age
-                avg = sum / len(list)
-                square_sum = 0
-                for i in list():
-                    square_sum += (i.age - avg) ** 2
-                    var = square_sum / len(list)
-                    std = var ** 0.5
-                    retrun(std)
+        x_coord = xc
+        y_coord = yc
+
+        distance = 0
+        for i in list():
+            distance += ((point_2.xc - point_1.xc)**2 + (point_2.yc - point_1.yc)**2)
+            total = distance **.5
+
+            return(total)
 
 
 point_1 = Point(7,4)

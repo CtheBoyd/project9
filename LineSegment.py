@@ -4,23 +4,23 @@ class Point():
         self._x_coord = x_coord
         self._y_coord = y_coord
 
-        def get_x_coord(self):
-            return self.x_coord
+    def get_x_coord(self):
+        return self._x_coord
 
-        def get_y_coord(self):
-            return self.y_coord
+    def get_y_coord(self):
+        return self._y_coord
 
 
-    def distance_to():
-        x_coord = xc
-        y_coord = yc
+    def distance_to(self):
+        _x_coord = xc
+        _y_coord = yc
 
         distance = 0
-        for i in list():
-            distance += ((point_2.xc - point_1.xc)**2 + (point_2.yc - point_1.yc)**2)
-            total = distance **.5
 
-            return(total)
+        distance += (((point_2.xc - point_1.xc)**2) + ((point_2.yc - point_1.yc)**2))
+        total = distance **.5
+
+        return(total)
 
 
 point_1 = Point(7,4)
